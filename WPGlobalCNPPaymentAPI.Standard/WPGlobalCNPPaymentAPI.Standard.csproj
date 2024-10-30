@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ - WPGlobalCNPPaymentAPI.Standard
+ -
+ - This file was automatically generated for Your Brand Name here by APIMATIC v3.0 ( https://www.apimatic.io ).
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ErasmusJacobsSDK</AssemblyName>
+    <Version>4.5.4.0</Version>
+    <Authors>Iola Shepard</Authors>
+    <Owners>FIS Merchant Solutions</Owners>
+    <Product>WPGlobalCNPPaymentAPI.Standard</Product>
+    <Copyright>Copyright ©  2019</Copyright>
+    <AssemblyVersion>4.5.4.0</AssemblyVersion>
+    <FileVersion>4.5.4.0</FileVersion>
+    <Description>Aliquam officiis cul</Description>
+    <LangVersion>7.3</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PackageId>ErasmusJacobsSDK</PackageId>
+    <RepositoryUrl>https://github.com/ZahraN444/rasmus-jacobs-dotnet-sdk.git</RepositoryUrl>
+    <PackRepositoryTypeageId>git</PackRepositoryTypeageId>
+    <PackageProjectUrl>https://www.fiqowoqi.info</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include= "APIMatic.Core" Version= "0.4.*" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="JsonSubTypes" Version="2.0.1" />
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
